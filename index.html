@@ -1,0 +1,21 @@
+---
+layout: page
+title: Software Carpentry @ NCL
+---
+
+<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Box_Alignment_in_CSS_Grid_Layout -->
+<div class="content">
+{% for workshop in site.data.workshops %}
+  <div class="grid-item">
+  <div class="event-square" style="background-image:url(/assets/images/{{ workshop.type }}.png);">
+  <a href="{{ site.baseurl }}{{ workshop.link }}">
+    <div class="text">
+      {{ workshop.date }}<br/>
+      {{ workshop.title }}
+    </div>
+    <div class="event-square-overlay"></div>
+  </a>
+  </div>
+  </div>
+{% endfor %}
+</div>
