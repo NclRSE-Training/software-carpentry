@@ -3,13 +3,13 @@ body {
   font-family: Arial;
 }
 
-h2 {
-  font-size: 14px;
-  font-color: red;
+h1 {
+  font-size: 20px;
+  font-color: white;
 }
 
 a:visited {
-  color: #ef9b02;
+  color: #a93d96;
 }
 
 a:hover {
@@ -18,36 +18,37 @@ a:hover {
 
 a {
   text-decoration: none;
-  color: #ef9b02;
+  color: #a93d96;
 }
 
-.text {
+h2 {
+  margin-top: 2px;
+  margin-left: 4px;
   font-weight: bold;
   font-size: 14px;
-  font-color: #ef9b02;
-  text-shadow: 0px 2px 2px #000;
+  font-color: #a93d96;
+  text-shadow: 0px 1px 1px #000;
 }
 
 .grid-container {
-  border: 1px solid blue;
 }
 
 .wrapper {
   display: grid;
+  margin-top: 5px;
 }
 
 .content {
   justify-self: center;
   display: table-cell;
   font-family: arial;
-  width: 600px;
+  width: 606px;
   vertical-align: middle;
-  border: 1px solid green;
+  border: 1px solid black;
 }
 
 .event-square {
   color: white;
-  border: 1px solid #372121;
   position: relative;
   background-size: cover;
   background-position: center center;
@@ -73,13 +74,10 @@ a {
   line-height: 25px;
   word-wrap: break-word;
   background-color: rgba(0, 0, 0, 0);
-  background-image: -webkit-linear-gradient(rgba(15,20,31,0) 0,rgba(15,20,31,.1) 25%,rgba(15,20,31,.8) 100%);
-  background-image: linear-gradient(rgba(15,20,31,0) 0,rgba(15,20,31,.1) 25%,rgba(15,20,31,.8) 100%);
 }
 
 .nav {
   background-color: #a93d96; 
-  border-bottom: 1px solid black;
   color: white;
   text-align: center;
   padding-bottom: 5px;
@@ -103,4 +101,24 @@ a {
 .button:hover {
   background-color: #fff;
   color: #333;
+}
+
+.pagetext {
+  padding: 5px;
+  text-align: justify;
+}
+
+.pagetext a {
+  font-weight: bold;
+  color:#a93d96;
+}
+
+.pagetext a:visited {
+  font-weight: bold;
+  color:#a93d96;
+}
+
+.pagetext a:hover {
+  font-weight: bold;
+  color: #0160c1;
 }
