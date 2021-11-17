@@ -14,6 +14,6 @@ We are not limited to the official Carpentry Lessons as we will be developing le
 We aim to run at least bi-monthly workshops open to all researchers but we also plan to run workshops for specific groups. If you would like to arrange workshop for your group or lab, please contact Jannetta at [jannetta.steyn@newcastle.ac.uk](mailto::jannetta.steyn@newcastle.ac.uk).
 
 <div style="border-top: 1px solid black; padding: 5px 5px 5px 5px;">
-  <img src="/assets/images/TheCarpentries.svg" height="50px">
-  <img style="float:right" src="/assets/images/Newcastle_University_logo.svg" height="55px">
+  <img src="assets/images/TheCarpentries.svg" height="50px">
+  <img style="float:right" src="assets/images/Newcastle_University_logo.svg" height="55px">
 </div>
