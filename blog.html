@@ -3,11 +3,12 @@ layout: page
 title: Blog
 ---
 
+This is just a collection of links to blog posts, from all over the Web, about Software, Data and Library Carpentry Workshops.
 <ul>
-  {% for post in site.posts %}
+  {% for blog in site.data.blogposts %}
     <li>
 	    <div class="entry-date">{{ post.date | date_to_string }}</div>
-      <b><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></b>
+      <b><a href="{{ site.baseurl }}{{ blog.link }}" target="_blank">{{ blog.name }}</a></b>
       {{ post.excerpt }}
     </li>
   {% endfor %}
