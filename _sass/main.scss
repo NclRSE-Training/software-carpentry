@@ -30,7 +30,17 @@ h2 {
   text-shadow: 0px 1px 1px #666;
 }
 
-.grid-container {
+.grid {
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 5px;
+  margin-bottom: 10px;
+}
+
+.grid-item{
+  width: 185px;
+  height: 180px;
+  margin-bottom: 5px;
 }
 
 .wrapper {
@@ -42,7 +52,7 @@ h2 {
   justify-self: center;
   display: table-cell;
   font-family: arial;
-  width: 606px;
+  width: 608px;
   vertical-align: middle;
   border: 1px solid black;
 }
@@ -52,14 +62,14 @@ h2 {
   position: relative;
   background-size: cover;
   background-position: center center;
-  width: 30%;
+  width: 100%;
   float: left;
   margin: 10px 10px 10px 10px;
   height: 100%;
   box-sizing: border-box;
   height: 180px;
   border-radius: 3px;
-  background-color: #333;
+  background-color: #aaa;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
   border: 1px solid #ddd;
 }
@@ -122,3 +132,4 @@ h2 {
   font-weight: bold;
   color: #0160c1;
 }
+

@@ -3,7 +3,12 @@ layout: default
 title: Software Carpentry @ NCL
 ---
 
-{% for workshop in site.data.workshops %}
+{% assign grouped_by_year = site.data.workshops | group_by_exp: "workshop", "workshop.date | date: '%Y'" %}
+{% for year in grouped_by_year %}
+<h2>{{ year.name }}</h2>
+
+<div class="grid">
+{% for workshop in year.items %}
 <div class="grid-item">
   <div class="event-square" style="background-image:url(assets/images/{{ workshop.type }}.png);">
   <a href="{{ workshop.link }}">
@@ -14,5 +19,7 @@ title: Software Carpentry @ NCL
     <div class="event-square-overlay"></div>
   </a>
   </div>
+</div>
+{% endfor %}
 </div>
 {% endfor %}
