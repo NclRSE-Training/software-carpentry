@@ -1,8 +1,3 @@
-[Workshop Schedule](schedule.md)
-
-# 2022-09-27-NCL
-
-[Workshop Website](https://github.com/NclRSE-Training/2021-10-25-NCL)
 
 ## Instructors:
 
