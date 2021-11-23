@@ -2,7 +2,7 @@
 
 for ws in "$@"
 do
-  echo "[Staff Rota](rota.md)" > ${ws}.md
+  cat nav.md > ${ws}.md
   echo "" >> ${ws}.md
   echo "# ${ws}" >> ${ws}.md
   echo "" >> ${ws}.md
