@@ -2,7 +2,7 @@
 
 for ws in "$@"
 do
-  echo "[Workshop Schedule](schedule.md)" > ${ws}.md
+  echo "[Staff Rota](rota.md)" > ${ws}.md
   echo "" >> ${ws}.md
   echo "# ${ws}" >> ${ws}.md
   echo "" >> ${ws}.md
