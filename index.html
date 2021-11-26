@@ -5,9 +5,6 @@ title: Software Carpentry @ NCL
 
 <!-- https://stackoverflow.com/questions/17608229/floating-div-with-iframe -->
 <!--<div style="top: 0px; right: 0px; border: 0px solid black; height: 110px; position: fixed; width: 110px; overflow: hidden; ">-->
-<div style="top: 0px; right: 0px; position: fixed;">
-<iframe class="fixedElement" src="https://free.timeanddate.com/clock/i82qy3o3/n3329/szw110/szh110/hoc000/hbw2/hfceee/cf100/hncccc/fdi76/mqc000/mql10/mqw4/mqd98/mhc000/mhl10/mhw4/mhd98/mmc000/mml10/mmw1/mmd98" __idm_frm__="17179869470" ></iframe>
-</div>
 
 
 {% assign grouped_by_year = site.data.workshops | group_by_exp: "workshop", "workshop.date | date: '%Y'" %}
@@ -17,16 +14,16 @@ title: Software Carpentry @ NCL
 <div class="grid">
 {% for workshop in year.items %}
 <div class="grid-item">
-  <div class="event-square" style="background-image:url(assets/images/{{ workshop.type }}.png);">
-  <a href="{{ workshop.link }}">
-    <h2>
-      {{ workshop.date }}<br/>
-      {{ workshop.title }}
-    </h2>
-  </a>
-  <div style="right:0px; bottom: 0px; position: absolute;">
-    <a href="https://github.com/NewcastleRSE/software-carpentry/blob/main/admin/{{ workshop.date }}.md">&#9998;</a>
-  </div>
+  <div class="event-square" style="background-image:url(assets/images/{{ workshop.type }}.png); ">
+      <a href="{{ workshop.link }}">
+        <h2>
+          {{ workshop.date }}<br/>
+          {{ workshop.title }}
+        </h2>
+      </a>
+      <div style="float:right">
+        <a href="https://github.com/NewcastleRSE/software-carpentry/blob/main/admin/{{ workshop.date }}.md">&#9998;</a>
+      </div>
   </div>
 </div>
 {% endfor %}

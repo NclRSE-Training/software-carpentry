@@ -38,15 +38,14 @@ h2 {
 
 .grid {
   display:grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(1,1fr);
   grid-gap: 5px;
   margin-bottom: 10px;
 }
 
 .grid-item{
-  width: 185px;
-  height: 180px;
-  margin-bottom: 5px;
+  width: 100%;
+  height: 70px;
 }
 
 .wrapper {
@@ -64,23 +63,23 @@ h2 {
 }
 
 .event-square {
-  color: white;
-  position: relative;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
+  width: 600px;
+  height:100%;
+  background-repeat: no-repeat;
   float: left;
-  margin: 10px 10px 10px 10px;
-  height: 100%;
-  box-sizing: border-box;
-  height: 180px;
-  border-radius: 3px;
-  background-color: #aaa;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+  background-position: center right;
   border: 1px solid #ddd;
 }
 
-.event-square-overlay{
+.scrap2 {
+  margin: 10px 5px 10px 5px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background-color: #aaa;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
+.scrap1 {
   z-index: 2;
   position: absolute;
   top: 0px;
@@ -104,7 +103,6 @@ h2 {
   font-weight: bold;
   text-shadow: 0 2px 2px #000;
   background-color: #333;
-  /* Green */
   color: white;
   padding: 8px 20px;
   text-align: center;
@@ -139,3 +137,12 @@ h2 {
   color: #0160c1;
 }
 
+@media (max-width:608px){
+  .event-square {
+    background-image: none !important;
+    width:100%;
+  }
+  .content {
+    width: 100%;
+  }
+}
