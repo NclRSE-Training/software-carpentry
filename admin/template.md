@@ -1,19 +1,14 @@
 
 ## Instructors:
 
-1. Becky
-1. Fiona
-1. Frances
-1. Kate
-1. Kathryn
-1. Jannetta
-1. Nik
-1. Samantha
-1. Dave
-1. David
-1. Jim
-1. Tiago
-1. Robin
+1. Instructor 1
+1. Instructor 2
+
+# Helpers
+
+1. Helper 1
+1. Helper 2
+1. Helper 3
 
 ## Schedule
 |Session|Instructor|
