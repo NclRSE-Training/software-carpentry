@@ -1,4 +1,4 @@
-|[Staff Rota](rota.md)|[Check List](checklist.md)|[HomePage](http://carpentries.ncldata.dev)|
+|[Staff Rota](rota.md)|[Wiki](https://github.com/NewcastleRSE/software-carpentry/wiki)|[HomePage](http://carpentries.ncldata.dev)|
 |-|-|-|
 
 
