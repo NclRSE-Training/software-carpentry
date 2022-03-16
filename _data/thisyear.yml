@@ -26,7 +26,7 @@
   date: 2022-03-29-NCL
   title: Bash/Git/Python
   type: swc
-- link: https://nclrse-training.github.io/2022-03-21-NUAcT/
-  date: 2022-03-21-NUAcT
+- link: https://nclrse-training.github.io/2022-03-22-NUAcT/
+  date: 2022-03-22-NUAcT
   title: Data Carpentries (Geospatial)
-  type: swc-or
+  type: dc
