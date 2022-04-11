@@ -20,7 +20,7 @@
 |Kathryn | | | | | | | | | | | |
 |Tiago   | | | | | | | | | | | |
 
-|Name|Mar 31|Apr 11|Apr 12|Apr 13|May 23|May 24|May 25|May 31|Jun 01|Jun 02|Jul 26|
+|Name|Mar 31|Apr 11|Apr 12|Apr 13|May 23|May 24|May 25|May 30|May 31|Jun 01|Jul 26|
 |-|-|-|-|-|-|-|-|-|-|-|-|
 |David   | | | | | | | | | | | |
 |Becky   | | | | | | | | | | | |
