@@ -14,15 +14,4 @@
   date: 2022-05-30-NCL
   title: Bash/Git/Python
   type: swc
-- link: https://nclrse-training.github.io/2022-04-11-NUAcT/
-  date: 2022-04-11-NUAcT
-  title: Bash/Git/Python/OpenRefine
-  type: swc-or
-- link: https://nclrse-training.github.io/2022-03-29-NCL/
-  date: 2022-03-29-NCL
-  title: Bash/Git/Python
-  type: swc
-- link: https://nclrse-training.github.io/2022-03-22-NUAcT/
-  date: 2022-03-22-NUAcT
-  title: Data Carpentries (Geospatial)
-  type: dc
+
