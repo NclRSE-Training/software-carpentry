@@ -27,24 +27,24 @@
 |Nik     | | | | | | | | | | | |
 |Robin   | | | | | | | | |x| | |
 |Dave    | | | | | | | | | | | |
-|Jim     | | | | | | | |x| | | |
+|Jim     | | | | | | | |̶X̶| | |x|
 |Kate    | |x|x|x|x|x|x| | | | |
 |Fiona   |x| | | | | | | | | | |
 |Samantha| | | | | | | | | | | |
-|Kathryn | | | | | | | | | |x| |
-|Tiago   | | | | | | | | | | |x|
+|Kathryn | | | | | | | | | |̶X̶| |
+|Tiago   | | | | | | | | | | | |
 
 |Name|Jul 27|Jul 28|Sep 27|Sep 28|Sep 29|Nov 22|Nov 23|Nov 24|
 |-|-|-|-|-|-|-|-|-|
-|David   |x| | | | | | | | | | |
-|Becky   | |x| | | | | | | | | |
-|Nik     | | |x| | | | | | | | |
-|Robin   | | | |x| | | | | | | |
-|Dave    | | | | |x| | | | | | |
-|Jim     | | | | | |x| | | | | |
+|David   | |x| | | | | | | | | |
+|Becky   | | |x| | | | | | | | |
+|Nik     | | | |x| | | | | | | |
+|Robin   | | | | |x| | | | | | |
+|Dave    | | | | | |x| | | | | |
+|Jim     | | | | | | |x| | | | |
 |Kate    | | | | | | | | | | | |
-|Fiona   | | | | | | | |x| | | |
-|Samantha| | | | | | | | |x| | |
-|Kathryn | | | | | | | | | |x| |
-|Tiago   | | | | | | | | | | |x|
+|Fiona   | | | | | | | | |x| | |
+|Samantha| | | | | | | | | |x| |
+|Kathryn |x| | | | | | | | | |x|
+|Tiago   | | | | | | | | | | | |
 
