@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - link: https://nclrse-training.github.io/2022-11-23-NCL/
   date: 2022-11-23-NCL
   title: Bash/Git/Python
@@ -18,6 +19,8 @@
   date: 2022-05-31-NCL
   title: Bash/Git/Python
   type: swc
+=======
+>>>>>>> 3f12a32b21e026f42e62939eb4a604197f721101
 - link: https://nclrse-training.github.io/2022-04-11-NUAcT/
   date: 2022-04-11-NUAcT
   title: Bash/Git/Python/OpenRefine
@@ -27,6 +30,7 @@
   title: Bash/Git/Python
   type: swc
 - link: https://nclrse-training.github.io/2022-03-22-NUAcT/
+<<<<<<< HEAD
   date: 2022-03-2-NCL
   title: Data Carpentries (Geolocation)
   type: dc
@@ -34,6 +38,11 @@
   date: 2022-02-28-NUAcT
   title: Bash/Git/Python/OpenRefine
   type: swc-or
+=======
+  date: 2022-03-22-NUAcT
+  title: Data Carpentries (Geospatial)
+  type: dc
+>>>>>>> 3f12a32b21e026f42e62939eb4a604197f721101
 - link: https://nclrse-training.github.io/2022-01-25-NCL/
   date: 2022-01-25-NCL
   title: Bash/Git/Python

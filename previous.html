@@ -1,17 +1,18 @@
 ---
 layout: default
-title: Software Carpentry @ NCL
+title: Previous Workshops
 ---
 
 <!-- https://stackoverflow.com/questions/17608229/floating-div-with-iframe -->
 <!--<div style="top: 0px; right: 0px; border: 0px solid black; height: 110px; position: fixed; width: 110px; overflow: hidden; ">-->
 
-{% assign sorted = site.data.thisyear | sort: 'date' %}
 
-<h2>2022</h2>
+{% assign grouped_by_year = site.data.workshops | group_by_exp: "workshop", "workshop.date | date: '%Y'" %}
+{% for year in grouped_by_year %}
+<h2>{{ year.name }}</h2>
 
 <div class="grid">
-{% for workshop in sorted %}
+{% for workshop in year.items %}
 <div class="grid-item">
   <div class="event-square" style="background-image:url(assets/images/{{ workshop.type }}.png); ">
       <a href="{{ workshop.link }}">
@@ -27,4 +28,4 @@ title: Software Carpentry @ NCL
 </div>
 {% endfor %}
 </div>
-
+{% endfor %}
