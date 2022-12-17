@@ -7,10 +7,12 @@
   date: 2023-02-14
   title: Unix Shell - Online
   type: n8-bash
+  form:
 - link: https://nclrse-training.github.io/2023-02-21-NCL/
   date: 2023-02-21
   title: An Introduction to The Internet of Things (IoT)
   type: iot
+  form:
 - link: https://www.eventbrite.co.uk/e/python-gpu-programming-workshop-tickets-486855276237?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=escb 
   date: 2023-02-28
   title: Python GPU Programming Workshop
@@ -20,15 +22,19 @@
   date: 2023-03-14
   title: HPC
   type: n8-hpc
+  form:
 - link: https://nclrse-training.github.io/2023-03-21-NCL/
   date: 2023-03-21
   title: Unix Shell - 2023-03-21, Git - 2023-03-22, Python - 2023-03-28
   type: swc
+  form:
 - link: https://nclrse-training.github.io/2023-04-11-NCL/
   date: 2023-04-11
   title: An Introduction to The Internet of Things (IoT)
   type: iot
-- link: https://nclrse-training.github.io/2023-04-11-NCL/
-  date: 2023-04-11
-  title: An Introduction to The Internet of Things (IoT)
-  type: iot
+  form:
+- link: https://nclrse-training.github.io/2023-05-09-NCL/
+  date: 2023-05-09
+  title: Unix Shell - 2023-05-09, Git - 2023-05-16, Python - 2023-05-23
+  type: swc
+  form:
