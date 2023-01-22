@@ -25,7 +25,7 @@ Some information about the workshop
       <option value="halaal">halaal</option>
     </select>
 
-    <label for="howHeard">How did you hear about this programme?/label>
+    <label for="howHeard">How did you hear about this programme?</label>
     <select id="howHeard" name="howHeard">
       <option value="friend/colleague">From a friend/colleague</option>
       <option value="university website">From the university website</option>
