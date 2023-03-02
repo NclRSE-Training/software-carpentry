@@ -1,3 +1,15 @@
+- id: 2023-02-14-NCL
+  link: https://nclrse-training.github.io/2023-02-14-NCL-ONLINE/
+  date: 2023-02-14
+  title: Unix Shell - Online
+  type: n8-bash
+  form: https://www.eventbrite.co.uk/e/unix-shell-workshop-tickets-519600347627
+- id: 2023-02-21-NCL
+  link: https://nclrse-training.github.io/2023-02-21-NCL/
+  date: 2023-02-21
+  title: An Introduction to The Internet of Things (IoT)
+  type: iot
+  form: https://forms.office.com/e/JWkw1qkBKt
 - link: https://nclrse-training.github.io/2023-01-17-NCL/
   date: 2023-01-17
   title: Unix Shell - 2023-01-17, Git/Markdown - 2023-01-24, </br>Python - 2023-01-31
