@@ -5,6 +5,8 @@ title: Code Community
 
 # Code Community
 
+Code Community is a monthly meetup of researchers and technicians across the university who use code – in all its many forms – in their research. We have talks, workshops, helpdesks and, above all, a supportive network of people to help each other on their coding journeys. Everyone is welcome to join, regardless of their skill level or technology of choice.
+
 ## Presentations
 Listen and present talks on the software or technical aspects of research work.
 
