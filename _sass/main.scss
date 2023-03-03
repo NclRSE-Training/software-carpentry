@@ -136,6 +136,16 @@ h2 {
   color: #0160c1;
 }
 
+.past {
+  font-weight: bold;
+  color: #999999;
+}
+
+.future {
+  font-weight: bold;
+  color: #003A65;
+}
+
 @media (max-width:608px){
   .event-square {
     background-image: none !important;

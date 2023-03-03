@@ -17,18 +17,42 @@ Listen and present talks on the software or technical aspects of research work.
 Get support from the wider community when you get stuck with a problem.
 
 ### Topics for this year:
+{% capture now %}{{'now' | date: '%s' | plus: 0 }}{% endcapture %}
 
-{% assign codecom = site.data.codecommunity | sort: 'date' %} 
 
 <div class="grid">
+
+{% assign codecom = site.data.codecommunity | sort: 'date' %} 
 {% for cc in codecom %}
-<div class="grid-item">
-  <div class="event-square" style="background-image:url(assets/images/{{ workshop.type }}.png); ">
-        <h2>
-          {{ cc.date }}, {{ cc.time }}<br/>
-          {{ cc.title }}<br/>
-          {{ cc.venue }}<br/>
-        </h2>
+{% capture date %}{{cc.date | date: '%s' | plus: 0 }}{% endcapture %}
+{% if date > now %}
+  <div class="grid-item">
+    <div class="event-square" style="background-image:url(assets/images/{{ workshop.type }}.png); ">
+      <div class="future">
+        {{ cc.date }}, {{ cc.time }}<br/>
+        {{ cc.title }}<br/>
+        {{ cc.venue }}<br/>
+          <input type="button" onclick="location.href='{{ cc.form }}';" value="Register">
+      </div>
+    </div>
   </div>
-</div>
+{% endif %}
+{% endfor %}
+
+<hr>
+<h2>Past Events:</h2>
+{% assign codecom = site.data.codecommunity | sort: 'date' | reverse %} 
+{% for cc in codecom %}
+{% capture date %}{{cc.date | date: '%s' | plus: 0 }}{% endcapture %}
+{% if date < now %}
+  <div class="grid-item">
+    <div class="event-square" style="background-image:url(assets/images/{{ workshop.type }}.png); ">
+      <div class="past">
+        {{ cc.date }}, {{ cc.time }}<br/>
+        {{ cc.title }}<br/>
+        {{ cc.venue }}<br/>
+      </div>
+    </div>
+  </div>
+{% endif %}
 {% endfor %}
