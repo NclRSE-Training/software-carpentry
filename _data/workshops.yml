@@ -3,19 +3,19 @@ Workshops:
     link: https://nclrse-training.github.io/2023-03-21-NCL/
     date: 2023-03-21
     title: Unix Shell
-    type: swc
+    type: swc-unix
     form: https://forms.office.com/e/gSsr9a5VHv
   - id: 2023-03-22-NCL
     link: https://nclrse-training.github.io/2023-03-22-NCL/
     date: 2023-03-22
     title: Markdown and Version Control with Git
-    type: swc
+    type: swc-git
     form: https://forms.office.com/e/apw44fjKAr
   - id: 2023-03-28-NCL
     link: https://nclrse-training.github.io/2023-03-28-NCL/
     date: 2023-03-28
     title: Programming with Python
-    type: swc
+    type: swc-python
     form: https://forms.office.com/e/eaUjFycasX
   - id: 2023-04-11-NCL
     link: https://nclrse-training.github.io/2023-04-11-NCL/
@@ -27,43 +27,43 @@ Workshops:
     link: https://nclrse-training.github.io/2023-05-09-NCL/
     date: 2023-05-09
     title: Unix Shell
-    type: swc
+    type: swc-unix
     form: https://forms.office.com/e/ri9BjYYHMd
   - id: 2023-05-16-NCL
     link: https://nclrse-training.github.io/2023-05-16-NCL/
     date: 2023-05-16
     title: Git/Markdown
-    type: swc
+    type: swc-git
     form: https://forms.office.com/e/DCTAqpmT39
   - id: 2023-05-23-NCL
     link: https://nclrse-training.github.io/2023-05-23-NCL/
     date: 2023-05-23
     title: Python
-    type: swc
+    type: swc-python
     form: https://forms.office.com/e/vTZdJirS3n
   - id: 2023-06-13-NCL
     link: https://nclrse-training.github.io/2023-06-13-NCL/
     date: 2023-06-13
     title: TBA
-    type: python
-    form: swc
+    type: swc-python
+    form: 
   - id: 2023-07-11-NCL
     link: https://nclrse-training.github.io/2023-07-11-NCL
     date: 2023-07-11
     title: Unix Shell
-    type: swc
+    type: swc-unix
     form: https://forms.office.com/e/aiKi8VhJyi
   - id: 2023-07-18-NCL
     link: https://nclrse-training.github.io/2023-07-18-NCL
     date: 2023-07-18
     title: Introduction to MarkDown / Version Control with Git
-    type: swc
+    type: swc-git
     form: https://forms.office.com/e/61FgBpy5BD
   - id: 2023-07-25-NCL
     link: https://nclrse-training.github.io/2023-07-2525252525
     date: 2023-07-25
     title: Python
-    type: swc
+    type: swc-python
     form: https://forms.office.com/e/0ppgxcyT58
   - id: 2023-09-12-NCL
     link: https://nclrse-training.github.io/2023-09-12-NCL/
@@ -74,26 +74,26 @@ Workshops:
   - id: 2023-10-10-NCL
     link: https://nclrse-training.github.io/2023-10-10-NCL
     date: 2023-10-10
-    title: Unix Shell - 2023-10-10, Git/Markdown - 2023-10-17, </br>Python - 2023-10-24
-    type: swc
+    title: Unix Shell
+    type: swc-unix
     form: https://forms.office.com/e/Q929Y6MnG2
   - id: 2023-10-17-NCL
     link: https://nclrse-training.github.io/2023-10-17-NCL
     date: 2023-10-17
     title: MarkDown and Version Control with Git
-    type: swc
+    type: swc-git
     form: https://forms.office.com/e/NmZSAU241B
   - id: 2023-10-24-NCL
     link: https://nclrse-training.github.io/2023-10-24-NCL
     date: 2023-10-24
     title: Programming with Python
-    type: swc
+    type: swc-python
     form: https://forms.office.com/e/pztc6HqV2i
   - id: 2023-11-21-NCL
     link: https://nclrse-training.github.io/2023-11-21-NCL/
     date: 2023-11-21
     title: TBA
-    type: swc
+    type: swc-python
     form: none
   - id: 2023-03-14-NCL
     link: https://nclrse-training.github.io/2023-03-14-NCL/
@@ -117,13 +117,13 @@ Workshops:
     link: https://nclrse-training.github.io/2023-02-14-NCL-ONLINE/
     date: 2023-02-14
     title: Unix Shell - Online
-    type: n8-bash
+    type: swc-unix
     form: https://www.eventbrite.co.uk/e/unix-shell-workshop-tickets-519600347627
   - id: 2023-01-17-NCL
     link: https://nclrse-training.github.io/2023-01-17-NCL/
     date: 2023-01-17
     title: Unix Shell - 2023-01-17, Git/Markdown - 2023-01-24, </br>Python - 2023-01-31
-    type: swc
+    type: swc-git
     form: https://forms.office.com/e/KUXvN60HJR
   - id: 2022-11-30-NCL
     link: https://nclrse-training.github.io/2022-11-22-NCL/
