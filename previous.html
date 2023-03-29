@@ -6,13 +6,16 @@ title: Previous Workshops
 <!-- https://stackoverflow.com/questions/17608229/floating-div-with-iframe -->
 <!--<div style="top: 0px; right: 0px; border: 0px solid black; height: 110px; position: fixed; width: 110px; overflow: hidden; ">-->
 
-
-{% assign grouped_by_year = site.data.workshops | group_by_exp: "workshop", "workshop.date | date: '%Y'" %}
+{% assign todaydate = 'now' | date: '%Y-%m-%d' %}
+{% assign sorted = site.data.workshops.Workshops | sort: 'date' %}
+{% assign grouped_by_year = sorted | group_by_exp: "workshop", "workshop.date | date: '%Y'" %}
 {% for year in grouped_by_year %}
 <h2>{{ year.name }}</h2>
 
 <div class="grid">
 {% for workshop in year.items %}
+{% assign workshopdate = workshop.date | date: '%Y-%m-%d' %}
+{% if workshopdate < todaydate %}
 <div class="grid-item">
   <div class="event-square" style="background-image:url(assets/images/{{ workshop.type }}.png); ">
       <a href="{{ workshop.link }}">
@@ -26,6 +29,7 @@ title: Previous Workshops
       </div>
   </div>
 </div>
+{% endif %}
 {% endfor %}
 </div>
 {% endfor %}

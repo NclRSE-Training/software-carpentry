@@ -1,7 +1,7 @@
 # SHELL=/bin/bash -O extglob -c
 # PROJECTNAME := ${PWD##*/}
 
-PROJECTNAME=software-carpentry
+PROJECTNAME=`basename ${PWD}`
 
 # CarpentriesRegistration
 serve:

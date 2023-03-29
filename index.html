@@ -6,12 +6,15 @@ title: Software Carpentry @ NCL
 <!-- https://stackoverflow.com/questions/17608229/floating-div-with-iframe -->
 <!--<div style="top: 0px; right: 0px; border: 0px solid black; height: 110px; position: fixed; width: 110px; overflow: hidden; ">-->
 
-{% assign sorted = site.data.thisyear | sort: 'date' %}
+{% assign sorted = site.data.workshops.Workshops | sort: 'date' %}
+{% assign todaydate = 'now' | date: '%Y-%m-%d' %}
 
-<h2>2022</h2>
+<h2>{{ todaydate | date: '%Y' }}</h2>
 
 <div class="grid">
 {% for workshop in sorted %}
+{% assign blogdate = workshop.date | date: '%Y-%m-%d' %}
+{% if blogdate > todaydate %}
 <div class="grid-item">
   <div class="event-square" style="background-image:url(assets/images/{{ workshop.type }}.png); ">
       <a href="{{ workshop.link }}">
@@ -28,6 +31,7 @@ title: Software Carpentry @ NCL
 -->
   </div>
 </div>
+{% endif %}
 {% endfor %}
 </div>
 
