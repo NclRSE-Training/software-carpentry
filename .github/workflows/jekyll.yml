@@ -5,6 +5,8 @@ on:
     branches: [ gh-pages ]
   pull_request:
     branches: [ gh-pages ]
+  workflow_dispatch:
+    branches: [ gh-pages ]
 
 jobs:
   build:
