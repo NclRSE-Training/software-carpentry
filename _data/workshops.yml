@@ -44,9 +44,9 @@ Workshops:
   - id: 2023-06-13-NCL
     link: https://nclrse-training.github.io/2023-06-13-NCL/
     date: 2023-06-13
-    title: TBA
+    title: Introduction to artificial neural networks in Python
     type: swc-python
-    form: 
+    form: https://forms.office.com/e/R9wZmv4KXm
   - id: 2023-07-11-NCL
     link: https://nclrse-training.github.io/2023-07-11-NCL
     date: 2023-07-11
