@@ -1,4 +1,22 @@
 Workshops:
+  - id: 2023-09-12-NCL 
+    link: https://nclrse-training.github.io/2023-09-12-NCL/
+    date: 2023-09-12
+    title: An Introduction to The Internet of Things (IoT)
+    type: iot
+    form: none
+  - id: 2023-10-17-NCL
+    link: https://nclrse-training.github.io/2023-10-17-NCL
+    date: 2023-10-17
+    title: Unix Shell
+    type: swc-git
+    form: https://forms.office.com/e/NmZSAU241B
+  - id: 2023-11-21-NCL
+    link: https://nclrse-training.github.io/2023-11-21-NCL/
+    date: 2023-11-21
+    title: Version Control with Git
+    type: swc-python
+    form: none
   - id: 2023-03-21-NCL
     link: https://nclrse-training.github.io/2023-03-21-NCL/
     date: 2023-03-21
@@ -65,36 +83,6 @@ Workshops:
     title: Programming with Python
     type: swc-python
     form: https://forms.office.com/e/0ppgxcyT58
-  - id: 2023-09-12-NCL 
-    link: https://nclrse-training.github.io/2023-09-12-NCL/
-    date: 2023-09-12
-    title: An Introduction to The Internet of Things (IoT)
-    type: iot
-    form: none
-  - id: 2023-10-10-NCL
-    link: https://nclrse-training.github.io/2023-10-10-NCL
-    date: 2023-10-10
-    title: Unix Shell
-    type: swc-unix
-    form: https://forms.office.com/e/Q929Y6MnG2
-  - id: 2023-10-17-NCL
-    link: https://nclrse-training.github.io/2023-10-17-NCL
-    date: 2023-10-17
-    title: MarkDown and Version Control with Git
-    type: swc-git
-    form: https://forms.office.com/e/NmZSAU241B
-  - id: 2023-10-24-NCL
-    link: https://nclrse-training.github.io/2023-10-24-NCL
-    date: 2023-10-24
-    title: Programming with Python
-    type: swc-python
-    form: https://forms.office.com/e/pztc6HqV2i
-  - id: 2023-11-21-NCL
-    link: https://nclrse-training.github.io/2023-11-21-NCL/
-    date: 2023-11-21
-    title: TBA
-    type: swc-python
-    form: none
   - id: 2023-03-14-NCL
     link: https://nclrse-training.github.io/2023-03-14-NCL/
     date: 2023-03-14
